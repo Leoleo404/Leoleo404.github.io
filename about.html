@@ -4,33 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--=============== FAVICON ===============-->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-    <!--=============== REMIXICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
-
     <title>Blog</title>
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
+    <div class="theme-container shadow-dark">
+        <img id="theme-icon" src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
+            alt="ERR">
+    </div>
     <header class="header" id="header">
+        <a href="#main" class="skip">Skip to main content</a>
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                travel
+                CORE
             </a>
-            <article class="nav__menu" id="nav-menu">
+            <section class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
+                        <a href="index.html" class="nav__link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="contact.html" class="nav__link">About us</a>
+                        <a href="about.html" class="nav__link  active-link">About us</a>
                     </li>
                     <li class="nav__item">
                         <a href="blog.html" class="nav__link">Blog</a>
@@ -39,162 +37,148 @@
                         <a href="contact.html" class="nav__link">Contact</a>
                     </li>
                 </ul>
-
                 <!--Close Button-->
-                <article class="nav__close" id="nav-close">
+                <section class="nav__close" id="nav-close">
                     <i class="ri-close-line"></i>
-                </article>
-            </article>
+                </section>
+            </section>
             <!-- Toggle Button -->
-            <article class="nav__toggle" id="nav-toggle">
+            <section class="nav__toggle" id="nav-toggle">
                 <i class="ri-menu-line"></i>
-            </article>
+            </section>
         </nav>
     </header>
+    <section class="home section" id="home">
+        <img src="assets/img/sunset1.jpg" alt="home background image showing a sunset" class="home__bg">
+        <section class="home__shadow"></section>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <img src="assets/img/home-bg.jpg" alt="home background image showing a forest" class="home__bg">
-            <article class="home__shadow"></article>
+        <section class="home__container container grid">
+            <section class="home__data">
+                <h3 class="home__subtitle">
+                    Welcome to CORE
+                </h3>
 
-            <article class="home__container container grid">
-                <article class="home__data">
-                    <h3 class="home__subtitle">
-                        Welcome to Travel
-                    </h3>
+                <h1 class="home__title">
+                    Connecting hearts to places
+                </h1>
 
-                    <h1 class="home__title">
-                        Explore <br>
-                        The World
-                    </h1>
-
-                    <p class="home__description">
-                        Live the trips exploring the world, discover
-                        paradises, islands, mountains and much
-                        more, get your trip now.
-                    </p>
-
-                    <a href="" class="button">
-                        Start your journey
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </article>
-
-                <article class="home__cards grid">
-                    <article class="home__card">
-                        <img src="assets/img/home-trees.jpg" alt="" class="home__card-img">
-                        <h3 class="home__card-title">Croatia</h3>
-                        <article class="home__card-shadow"></article>
-                    </article>
-
-                    <article class="home__card">
-                        <img src="assets/img/home-lake.jpg" alt="" class="home__card-img">
-                        <h3 class="home__card-title">Iceland</h3>
-                        <article class="home__card-shadow"></article>
-                    </article>
-
-                    <article class="home__card">
-                        <img src="assets/img/home-mountain.jpg" alt="" class="home__card-img">
-                        <h3 class="home__card-title">Italy</h3>
-                        <article class="home__card-shadow"></article>
-                    </article>
-
-                    <article class="home__card">
-                        <img src="assets/img/home-beach.jpg" alt="" class="home__card-img">
-                        <h3 class="home__card-title">Spain</h3>
-                        <article class="home__card-shadow"></article>
-                    </article>
-                </article>
-            </article>
-        </section>
-
-        <section id="about-section">
-            <!-- about left  -->
-            <div class="about-left">
-                <img src="assets/img/about-beach.jpg" alt="About Img" />
-            </div>
-
-            <!-- about right  -->
-            <div class="about-right">
-                <h4>My Story</h4>
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Debitis fugiat a dolorem at similique maxime dolorum dolore
-                    enim dicta voluptatibus, illum recusandae, vel optio tempore
-                    ipsum incidunt eum. Aspernatur, repellendus.
+                <p class="home__description">
+                    Core: Explore the world's essence, one adventure at a time. Join us on a journey beyond borders.
                 </p>
-                <div class="address">
-                    <ul>
-                        <li>
-                            <span class="address-logo">
-                                <i class="fas fa-paper-plane"></i>
-                            </span>
-                            <p>Address</p>
-                            <span class="saprater">:</span>
-                            <p>Jaipur, Rajasthan, India</p>
-                        </li>
-                        <li>
-                            <span class="address-logo">
-                                <i class="fas fa-phone-alt"></i>
-                            </span>
-                            <p>Phone No</p>
-                            <span class="saprater">:</span>
-                            <p>+91 987-654-4321</p>
-                        </li>
-                        <li>
-                            <span class="address-logo">
-                                <i class="far fa-envelope"></i>
-                            </span>
-                            <p>Email ID</p>
-                            <span class="saprater">:</span>
-                            <p>crowncoder@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="expertise">
-                    <h3>My Expertise</h3>
-                    <ul>
-                        <li>
-                            <span class="expertise-logo">
-                                <i class="fab fa-html5"></i>
-                            </span>
-                            <p>HTML</p>
-                        </li>
-                        <li>
-                            <span class="expertise-logo">
-                                <i class="fab fa-css3-alt"></i>
-                            </span>
-                            <p>CSS</p>
-                        </li>
-                        <li>
-                            <span class="expertise-logo">
-                                <i class="fab fa-node-js"></i>
-                            </span>
-                            <p>Java Script</p>
-                        </li>
-                        <li>
-                            <span class="expertise-logo">
-                                <i class="fab fa-react"></i>
-                            </span>
-                            <p>React Js</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+                <a href="blog.html" class="button">
+                    Read our journeys <i class="ri-arrow-right-line"></i>
+                </a>
+
+            </section>
+
+            <section class="home__cards grid">
+                <section class="home__card">
+                    <img src="assets/img/home-trees.jpg" alt="image showing a mountain with fog and trees"
+                        class="home__card-img">
+                    <h3 class="home__card-title">Italy</h3>
+                    <span class="home__card-shadow"></span>
+                </section>
+
+                <section class="home__card">
+                    <img src="assets/img/home-lake.jpg" alt="image showing a waterfall" class="home__card-img">
+                    <h3 class="home__card-title">Norway</h3>
+                    <span class="home__card-shadow"></span>
+                </section>
+
+                <section class="home__card">
+                    <img src="assets/img/home-mountain.jpg" alt="image showing a mountain" class="home__card-img">
+                    <h3 class="home__card-title">Austria</h3>
+                    <span class="home__card-shadow"></span>
+                </section>
+
+                <section class="home__card">
+                    <img src="assets/img/home-beach.jpg" alt="image showing the erasmusbrug during sunset"
+                        class="home__card-img">
+                    <h3 class="home__card-title">The Netherlands</h3>
+                    <span class="home__card-shadow"></span>
+                </section>
+            </section>
         </section>
+    </section>
+    <section class="about section" id="about">
+        <article class="aboutp__container container grid">
+            <article class="about__data">
+                <h2 class="aboutsection__title">
+                    Exploring the World Through Words: Unveiling CORE
+                </h2>
 
-        <!--========== SCROLL UP ==========-->
-        <a href="" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line"></i>
-        </a>
+                <p class="aboutp__description">
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+                    In an era where wanderlust permeates every corner of our lives, travel blogging has become a bridge
+                    that connects the uncharted territories of the world with the curious minds of global explorers.
+                    Among the myriad of travel blogging companies, one name stands out with its unique approach and
+                    commitment to sharing the wonders of the world - CORE.
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
+                    CORE, which stands for "Connecting Our Real Experiences," is not just a travel blogging company;
+                    it's a movement, a lifestyle, and a platform that fuels the passions of intrepid globetrotters, and
+                    encourages them to share their authentic experiences. Founded by avid travelers and storytellers,
+                    Paul and fleur. CORE was established with a mission to redefine the way we perceive and engage with
+                    the world through travel.
+
+                    At its heart, CORE is about storytelling. It believes that travel is not just about the destinations
+                    you visit, but the stories you gather along the way. The company brings together a diverse group of
+                    talented travel bloggers, photographers, videographers, and writers who are passionate about
+                    documenting their journeys in a way that inspires and informs. These dedicated individuals embark on
+                    adventures across the globe, from the bustling streets of Tokyo to the serene landscapes of
+                    Patagonia, capturing the essence of each place with their unique perspectives.
+                </p>
+
+
+                <p class="aboutp__description">
+                    What sets CORE apart from other travel blogging companies is its unwavering commitment to
+                    authenticity. In a world often saturated with polished, staged, and over-filtered content, CORE
+                    celebrates the raw, unfiltered moments that make travel so enriching. The company's bloggers share
+                    their triumphs and challenges, their moments of awe and vulnerability, and most importantly, their
+                    genuine encounters with the people, cultures, and landscapes they encounter.
+
+                    CORE's website is a treasure trove of captivating stories and breathtaking visuals. Readers can
+                    immerse themselves in vivid narratives that transport them to far-flung corners of the Earth. From
+                    vivid descriptions of savoring street food in Bangkok to heartfelt accounts of connecting with
+                    locals in remote villages in Africa, CORE's bloggers take their audience on a journey that
+                    transcends the boundaries of geography and culture.
+                </p>
+
+
+                <p class="aboutp__description">
+                    In addition to its captivating blog content, CORE offers a range of resources for aspiring travelers
+                    and fellow adventurers. The website features practical travel guides, tips, and advice on everything
+                    from packing efficiently to navigating unfamiliar customs and traditions. CORE believes that travel
+                    should be accessible to everyone, regardless of experience level, and strives to empower individuals
+                    to explore the world with confidence and respect.
+
+                    CORE also places a strong emphasis on responsible and sustainable travel. The company recognizes the
+                    importance of preserving the world's natural beauty and cultural heritage for future generations.
+                    Thus, their bloggers are advocates for eco-conscious and culturally sensitive tourism, promoting
+                    practices that minimize environmental impact and promote positive engagement with local communities.
+
+                    Beyond their digital presence, CORE Travel Blogging Company also organizes community events,
+                    workshops, and travel meetups. These gatherings provide opportunities for like-minded individuals to
+                    connect, share stories, and foster a sense of belonging within the global travel community. CORE
+                    firmly believes that travel is not just about places; it's about people and connections.
+                </p>
+            </article>
+
+            <article class="aboutp__image">
+                <img src="assets/img/about-bumblebee.jpg" alt="image showing a bumblebee in a flower"
+                    class="about__img">
+                <img src="assets/img/about-bumblebee.jpg" alt="image showing a bumblebee in a flower"
+                    class="about__img">
+                <img src="assets/img/about-bumblebee.jpg" alt="image showing a bumblebee in a flower"
+                    class="about__img">
+                <img src="assets/img/about-bumblebee.jpg" alt="image showing a bumblebee in a flower"
+                    class="about__img">
+            </article>
+
+        </article>
+
+    </section>
+    <script src="assets/js/test.js"></script>
 </body>
 
 </html>
